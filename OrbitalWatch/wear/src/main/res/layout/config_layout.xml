@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.wearable.view.BoxInsetLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/configlayout"
+    android:background="@color/config_activity_background">
+
+    <TextView
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="14dp"
+        android:textSize="18sp"
+        android:textColor="@color/config_activity_header_text_color"
+        android:text="@string/config_name"
+        android:textAlignment="center"
+        android:fontFamily="sans-serif-condensed-light"
+        app:layout_box="left|top"/>
+
+    <android.support.wearable.view.WearableListView
+        android:id="@+id/config_picker"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/transparent"
+        app:layout_box="left|right"/>
+
+</android.support.wearable.view.BoxInsetLayout>
