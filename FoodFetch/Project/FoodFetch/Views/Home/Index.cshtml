@@ -1,0 +1,22 @@
+﻿@model IEnumerable<FoodFetch.Models.Restaurant>
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Choose From Any Restaurant</h2>
+@foreach (var restaurant in Model)
+{
+    //First replace commas with bullet points for tidiness (bullet points are \u2022)
+    string RestaurantDescription = @restaurant.Description.Replace(",", " \u2022");
+
+    //Make one panel for each of the restaurants that have been passed
+    //class="panel" and the others are bootstrap classes
+    <a href="@Url.Action("Restaurant", "Order", new { id = restaurant.Id })">
+        <div class="panel">
+            <div class="panel-body" style="background-image: url(@restaurant.ImageURL);">
+                @restaurant.Name
+            </div>
+            <div class="panel-footer">@RestaurantDescription</div>
+        </div>
+    </a>
+}

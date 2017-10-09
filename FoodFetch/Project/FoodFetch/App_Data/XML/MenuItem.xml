@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfMenuItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <MenuItem>
+    <Id>0</Id>
+    <RestaurantId>1</RestaurantId>
+    <Name>The Plain Jane</Name>
+    <Description>Prime juicy beef burger made from fully traceable young heifer meat under months old, iceberg lettuce, beef tomato, onion and mayonnaise.</Description>
+    <Price>7.95</Price>
+  </MenuItem>
+  <MenuItem>
+    <Id>1</Id>
+    <RestaurantId>1</RestaurantId>
+    <Name>The Cheese Burger</Name>
+    <Description>Prime juicy beef topped with Old Dubliner cheddar cheese, iceberg lettuce, beef tomato, onion and mayonnaise.</Description>
+    <Price>8.95</Price>
+  </MenuItem>
+  <MenuItem>
+    <Id>2</Id>
+    <RestaurantId>1</RestaurantId>
+    <Name>The Bacon Cheese Burger</Name>
+    <Description>Prime juicy beef topped with Old Dubliner cheddar cheese, cured smoked bacon, red onion, iceberg lettuce, beef tomato and mayonnaise.</Description>
+    <Price>9.95</Price>
+  </MenuItem>
+  <MenuItem>
+    <Id>3</Id>
+    <RestaurantId>1</RestaurantId>
+    <Name>The Horseradish Burger</Name>
+    <Description>Prime juicy beef with caramelised onion, iceberg lettuce, beef tomato, horseradish and crème fraiche with Cashel Blue cheese.</Description>
+    <Price>10.95</Price>
+  </MenuItem>
+  <MenuItem>
+    <Id>4</Id>
+    <RestaurantId>1</RestaurantId>
+    <Name>The Hawaiian</Name>
+    <Description>Prime juicy beef with caramelised onion, grilled pineapple, beef tomato, iceberg lettuce, Bobo's burgers sauce and cheese.</Description>
+    <Price>9.95</Price>
+  </MenuItem>
+  <MenuItem>
+    <Id>5</Id>
+    <RestaurantId>1</RestaurantId>
+    <Name>The Slaw Burger</Name>
+    <Description>Prime juicy beef, home-made coleslaw, iceberg lettuce, beef tomato, red onion, American style mustard.</Description>
+    <Price>9.95</Price>
+  </MenuItem>
+  <MenuItem>
+    <Id>6</Id>
+    <RestaurantId>4</RestaurantId>
+    <Name>Traditional Fresh Cod &amp; Chips</Name>
+    <Description>The best seller also known as the “Dubliners caviar” served  with chunky chips.</Description>
+    <Price>10.25</Price>
+  </MenuItem>
+  <MenuItem>
+    <Id>7</Id>
+    <RestaurantId>4</RestaurantId>
+    <Name>Traditional Fresh Cod</Name>
+    <Description>The best seller, also known as 'Dublin's Caviar'</Description>
+    <Price>6.25</Price>
+  </MenuItem>
+  <MenuItem>
+    <Id>8</Id>
+    <RestaurantId>4</RestaurantId>
+    <Name>Fish Bites &amp; Chips</Name>
+    <Description></Description>
+    <Price>8.45</Price>
+  </MenuItem>
+  <MenuItem>
+    <Id>9</Id>
+    <RestaurantId>4</RestaurantId>
+    <Name>Chunky Large Chips</Name>
+    <Description></Description>
+    <Price>3.50</Price>
+  </MenuItem>
+  <MenuItem>
+    <Id>10</Id>
+    <RestaurantId>4</RestaurantId>
+    <Name>Chicken Tenders (5)</Name>
+    <Description></Description>
+    <Price>5.95</Price>
+  </MenuItem>
+  <MenuItem>
+    <Id>11</Id>
+    <RestaurantId>3</RestaurantId>
+    <Name>Burrito</Name>
+    <Description>A large flour tortilla filled with a choice of rice, choice of beans, filling of your choice, salsa, cheese and sour cream.</Description>
+    <Price>6.60</Price>
+  </MenuItem>
+  <MenuItem>
+    <Id>12</Id>
+    <RestaurantId>3</RestaurantId>
+    <Name>Burrito Bowl</Name>
+    <Description>Take all the ingredients that go into a burrito and mix them up in a bowl without the tortilla.</Description>
+    <Price>6.60</Price>
+  </MenuItem>
+  <MenuItem>
+    <Id>13</Id>
+    <RestaurantId>3</RestaurantId>
+    <Name>Fajita</Name>
+    <Description>A large flour tortilla filled with a choice of rice, sauteed peppers and onions, filling of your choice, salsa, cheese and sour cream.</Description>
+    <Price>6.60</Price>
+  </MenuItem>
+  <MenuItem>
+    <Id>14</Id>
+    <RestaurantId>3</RestaurantId>
+    <Name>Fajita Bowl</Name>
+    <Description>Take all the ingredients that go into a fajita and mix them up in a bowl without the tortilla.</Description>
+    <Price>6.60</Price>
+  </MenuItem>
+  <MenuItem>
+    <Id>15</Id>
+    <RestaurantId>3</RestaurantId>
+    <Name>Salad</Name>
+    <Description>Crisp romaine lettuce, choice of filling, choice of beans or sauteed peppers and onions, salsa, cheese and sour cream.</Description>
+    <Price>6.60</Price>
+  </MenuItem>
+  <MenuItem>
+    <Id>16</Id>
+    <RestaurantId>5</RestaurantId>
+    <Name>Veggie Burger</Name>
+    <Description>Veggie Patty, Tomato, Onion, Pickle, Lettuce &amp; Secret Sauce. </Description>
+    <Price>6.95</Price>
+  </MenuItem>
+  <MenuItem>
+    <Id>17</Id>
+    <RestaurantId>5</RestaurantId>
+    <Name>Bacon &amp; Cheese Burger</Name>
+    <Description>Grilled bacon, melted cheddar cheese and secret sauce</Description>
+    <Price>7.50</Price>
+  </MenuItem>
+  <MenuItem>
+    <Id>18</Id>
+    <RestaurantId>5</RestaurantId>
+    <Name>Cheezy Chicken</Name>
+    <Description>Cheddar cheese, tomato, onion, lettuce &amp; secret sauce served in a bun. </Description>
+    <Price>7.45</Price>
+  </MenuItem>
+  <MenuItem>
+    <Id>19</Id>
+    <RestaurantId>6</RestaurantId>
+    <Name>Subway Melt</Name>
+    <Description>359 6-inch Kcal</Description>
+    <Price>4.70</Price>
+  </MenuItem>
+  <MenuItem>
+    <Id>20</Id>
+    <RestaurantId>6</RestaurantId>
+    <Name>Chicken Teriyaki</Name>
+    <Description>320 6-inch Kcal</Description>
+    <Price>4.70</Price>
+  </MenuItem>
+  <MenuItem>
+    <Id>21</Id>
+    <RestaurantId>6</RestaurantId>
+    <Name>Chipotle Chicken Melt</Name>
+    <Description>440 6-inch Kcal</Description>
+    <Price>4.60</Price>
+  </MenuItem>
+</ArrayOfMenuItem>

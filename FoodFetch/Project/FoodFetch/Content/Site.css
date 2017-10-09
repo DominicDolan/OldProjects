@@ -1,0 +1,135 @@
+﻿body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+    background-image: url(images/food-background.jpg);
+    background-size: 100%;
+    background-position-x: 55%;
+}
+
+h4 {
+    padding-top: 20px;
+}
+
+h3 {
+    font-weight: bold;
+    padding-top: 20px;
+    padding-bottom: 0px;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    opacity: 1;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.navbar-toggle .icon-bar {
+    background-color: #59291c;
+}
+
+.panel {
+    box-shadow: #E0E0E0 0px 0px 7px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.panel-body {
+    font-size: 50px;
+    font-weight: bold;
+    color: lightgray;
+    -webkit-text-stroke: 1px black;
+    height: 200px;
+    overflow: hidden;
+    background-size: 100%;
+    background-position-y: 55%;
+    border-radius: 5px;
+}
+
+.panel-footer {
+    background-color: #59291c;
+    color: white;
+}
+
+a {
+    color: #59291c;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+#title a{
+    font-size: 40px;
+}
+
+.nav-container a:hover {
+    color: #79492c;
+}
+
+.nav > li > a:hover, .nav > li > a:focus .navbar-toggle .icon-bar {
+    background-color: #FF9800;
+}
+
+@font-face {
+    font-family: 'block-pro';
+    src: url('fonts/blockpropluscon-webfont-webfont.woff2') format('woff2'), url('fonts/blockpropluscon-webfont-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+#main {
+    max-width: 800px;
+    margin: auto;
+    margin-top: 40px;
+    box-shadow: #808080 10px 10px 30px;
+    background-color: white;
+    border-radius: 7px;
+}
+
+#restaurantimage {
+    margin: 0;
+    position: relative;
+    width: 100%;
+    top: 55%;
+}
+
+.nav-container {
+    font-family:"block-pro";
+    font-size:20px;
+}
+
+.brown-color {
+    background-color: #59291c;
+    color: white;
+}
+
+.brown-text {
+    color: #59291c;
+}
+
+.user {
+    font-size: 16px;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.cart-button {
+    position: relative;
+    left: 50%;
+    margin-top: 20px;
+}
+
+.orange-color {
+    background-color: #ed7800;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfRestaurant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Restaurant>
+    <Id>1</Id>
+    <Name>Bobo's</Name>
+    <Description>Burgers, American, Chicken</Description>
+    <Address>Dame st</Address>
+    <ImageURL>../Content/images/bobos.jpg</ImageURL>
+    <Stars>0</Stars>
+  </Restaurant>
+  <Restaurant>
+    <Id>2</Id>
+    <Name>Milano</Name>
+    <Description>Pizza, Italian, Dessert</Description>
+    <Address>Temple Bar</Address>
+    <ImageURL>../Content/images/milano.jpg</ImageURL>
+    <Stars>0</Stars>
+  </Restaurant>
+  <Restaurant>
+    <Id>3</Id>
+    <Name>Boojum</Name>
+    <Description>Mexican, Burritos, Salad</Description>
+    <Address>Abbey st</Address>
+    <ImageURL>../Content/images/boojum.jpg</ImageURL>
+    <Stars>0</Stars>
+  </Restaurant>
+  <Restaurant>
+    <Id>4</Id>
+    <Name>Leo Burdocks</Name>
+    <Description>Fish and Chips, Irish, Seafood</Description>
+    <Address>2 Werburgh St, Christchurch, Dublin 8</Address>
+    <ImageURL>../Content/images/burdocks.jpg</ImageURL>
+    <Stars>0</Stars>
+  </Restaurant>
+  <Restaurant>
+    <Id>5</Id>
+    <Name>Rocket's</Name>
+    <Description>Hambugers, Americn, Chicken</Description>
+    <Address>33 Baggot Street Upper, Dublin</Address>
+    <ImageURL>../Content/images/rockets.jpg</ImageURL>
+    <Stars>0</Stars>
+  </Restaurant>
+  <Restaurant>
+    <Id>6</Id>
+    <Name>Subway</Name>
+    <Description>Sandwiches, Salads, Cookies</Description>
+    <Address>140 Lower Rathmines Road, Dublin</Address>
+    <ImageURL>../Content/images/subway.jpg</ImageURL>
+    <Stars>0</Stars>
+  </Restaurant>
+  <Restaurant>
+    <Id>7</Id>
+    <Name>Hailan Korean Restaurant</Name>
+    <Description>Korean, Stir Fry, Sushi</Description>
+    <Address>65 Dame Street, Dublin</Address>
+    <ImageURL>../Content/images/hailan.jpg</ImageURL>
+    <Stars>0</Stars>
+  </Restaurant>
+  <Restaurant>
+    <Id>8</Id>
+    <Name>Chopped</Name>
+    <Description>Salads, Wraps, Juices</Description>
+    <Address>109 Grafton Street, Dublin</Address>
+    <ImageURL>../Content/images/chopped.jpg</ImageURL>
+    <Stars>0</Stars>
+  </Restaurant>
+  <Restaurant>
+    <Id>9</Id>
+    <Name>Camden Rotisserie</Name>
+    <Description>Chicken, Burgers, Wings</Description>
+    <Address>37 Camden Street, Dublin</Address>
+    <ImageURL>../Content/images/camden.jpg</ImageURL>
+    <Stars>0</Stars>
+  </Restaurant>
+  <Restaurant>
+    <Id>10</Id>
+    <Name>Chai Yo</Name>
+    <Description>Chinese, Thai, Japanese</Description>
+    <Address>100 Lower Baggot Street, Dublin</Address>
+    <ImageURL>../Content/images/chaiyo.jpg</ImageURL>
+    <Stars>0</Stars>
+  </Restaurant>
+  <Restaurant>
+    <Id>11</Id>
+    <Name>Nando's</Name>
+    <Description>Chicken, Salad, Wings</Description>
+    <Address>St. Andrews Street, Dublin</Address>
+    <ImageURL>../Content/images/nandos.jpg</ImageURL>
+    <Stars>0</Stars>
+  </Restaurant>
+  <Restaurant>
+    <Id>12</Id>
+    <Name>Diwali</Name>
+    <Description>Indian, Vegetarian, Tandori</Description>
+    <Address>Unit 1, Castle House South Great Georges Street, Dublin</Address>
+    <ImageURL>../Content/images/diwali.jpg</ImageURL>
+    <Stars>0</Stars>
+  </Restaurant>
+</ArrayOfRestaurant>

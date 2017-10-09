@@ -1,0 +1,73 @@
+﻿
+@{
+    ViewBag.Title = "PlaceOrder";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Place Your Order</h2>
+
+
+@using (Html.BeginForm("OrderPlaced", "Order", FormMethod.Post))
+{
+    <table class="table table-hover">
+        <thead>
+            <tr>
+                <th>Quantity</th>
+                <th>Name</th>
+                <th>Price</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            @foreach (var item in (List<FoodFetch.Models.OrderedMenuItem>) Session["CartItems"])
+            {
+                <tr>
+                    <td>@item.Quantity</td>
+                    @if (ViewBag.Names != null)
+                    {
+                        <td>@ViewBag.Names[item.MenuItemID]</td>
+                    }
+                    else
+                    {
+                        <td>Item</td>
+                    }
+                    <td>&euro;@item.Price</td>
+                </tr>
+                
+            }
+
+            <tr>
+                <td> </td>
+                <td><strong>Total</strong></td>
+                <td>&euro;@ViewBag.TotalPrice</td>
+            </tr>
+        </tbody>
+
+    </table>
+
+    
+    string[] address = (string[])ViewBag.Address;
+    bool isAddressValid = address != null && address.Count() == 5;
+    
+    <div class="form-group">
+        @Html.Label("Street", "Street")
+        @Html.TextBox("street1", isAddressValid? address[0].Trim() : "", new { @class = "form-control" })
+    </div>
+    <div class="form-group">
+        @Html.TextBox("street2", isAddressValid ? address[1].Trim() : "", new { @class = "form-control" })
+    </div>
+    <div class="form-group">
+        @Html.Label("City", "City")
+        @Html.TextBox("City", isAddressValid ? address[2].Trim() : "", new { @class = "form-control" })
+    </div>
+    <div class="form-group">
+        @Html.Label("County", "County")
+        @Html.TextBox("County", isAddressValid ? address[3].Trim() : "", new { @class = "form-control" })
+    </div>
+    <div class="form-group">
+        @Html.Label("PostCode", "Post Code")
+        @Html.TextBox("PostCode", isAddressValid ? address[4].Trim() : "", new { @class = "form-control" })
+    </div>
+
+    <input id="Submit1" type="submit" value="Place Order" class="form-control cart-button" />
+}

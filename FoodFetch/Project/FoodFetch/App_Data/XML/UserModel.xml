@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfUserModel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+  <UserModel>
+    <FirstName>Dominic</FirstName>
+    <LastName>Dolan</LastName>
+    <Email>dominic.dolan@hotmail.com</Email>
+    <Password>AOgN/kc0khJDoez55tgIre6NR5S4naB2cwxkgOhIudUOdS04v6Th3DY4+CCyaNLP+w==</Password>
+    <ComparePassword>123456789</ComparePassword>
+    <Address>123 street, Some Lane, Dublin, Dublin, D01TA49</Address>
+  </UserModel>
+</ArrayOfUserModel>

@@ -1,0 +1,45 @@
+﻿@model IEnumerable<FoodFetch.Models.MenuItem>
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>@ViewBag.Title</h2>
+
+@if (ViewBag.menuItem != null)
+{
+    <p>@ViewBag.menuItem.Name added to Cart</p>
+}
+@using (Html.BeginForm("AddToCart", "Order", FormMethod.Post))
+{
+<table class="table table-hover">
+    <thead>
+        <tr>
+            <th>Quantity</th>
+            <th>Name</th>
+            <th>Price</th>
+            <th>Description</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr class="cursor-pointer">
+
+                <td>
+                    @Html.DropDownList("quantity", new SelectList(new List<int>() { 0, 1, 2, 3, 4, 5 }), new { @class="form-control"})
+                    @Html.Hidden("MenuItemID", item.Id)
+                </td>
+
+                <td>@item.Name</td>
+                <td>&euro;@item.Price</td>
+                <td>@item.Description</td>
+            </tr>
+        }
+        
+    </tbody>
+    
+</table>
+<input id="Submit1" type="submit" value="Add To Cart" class="form-control cart-button" />
+}
+

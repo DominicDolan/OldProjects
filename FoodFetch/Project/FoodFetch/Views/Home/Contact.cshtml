@@ -1,0 +1,29 @@
+﻿
+@{
+    ViewBag.Title = "Contact";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container">
+    <h2>Contact</h2>
+    @using (Html.BeginForm("Contact", "Home", FormMethod.Post))
+    {
+        string email = Session["email"] == null ? "" : Session["email"].ToString();
+        <div class="form-group">
+            @Html.Label("E-mail Address")
+            @Html.TextBox("email", email, new { @class = "form-control" })
+        </div>
+        <div class="form-group">
+            @Html.Label("Subject")
+            @Html.TextBox("subject", "", new { @class = "form-control" })
+        </div>
+        <div class="form-group">
+            @Html.Label("Description")
+            @Html.TextArea("description", string.Empty, 10, 55, new { @class = "form-control" })
+        </div>
+        <div class="form-group">
+            <input id="Submit1" type="submit" value="Submit" class="form-control" />
+        </div>
+    }
+</div>
+

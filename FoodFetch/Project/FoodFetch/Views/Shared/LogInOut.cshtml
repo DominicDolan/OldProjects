@@ -1,0 +1,12 @@
+﻿
+@if (Session["name"] != null)
+{
+    <li>@Html.ActionLink(Session["name"].ToString(), "MyOrders", "User", null, new { @class = "user"})</li>
+
+    <li>@Html.ActionLink("Logout", "LogOut", "User", null, new { @class = "user" })</li>
+}
+else
+{
+    <li>@Html.ActionLink("Log In/Register", "Register", "User", null, new { @class = "user" })</li>
+}
+
